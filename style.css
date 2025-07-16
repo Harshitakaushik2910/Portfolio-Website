@@ -1,0 +1,43 @@
+ @import "tailwindcss";
+body{
+      background-color:white;
+}
+       /* #Skills{
+       padding-left:9rem; 
+       margin-top:2.5rem;
+       width:65rem;
+       letter-spacing: 0.025em;
+} */
+#Skills > * + * {
+  margin-top: 2.5rem;
+}
+#About > * + * {
+  margin-top: 2.5rem;
+}
+#Contact > * + * {
+  margin-top: 2.5rem;
+} 
+  #Home{
+      display:flex;
+      
+ }  
+ #Projects > * + * {
+  margin-top: 2.5rem;
+} 
+
+ /* #Projects  { 
+   padding-left:9rem; 
+      margin-top:2.5rem;
+       width:65rem;
+       letter-spacing: 0.025em;
+}   */
+
+.light-mode{
+  background-color:white;
+  color:black;
+}
+.dark-mode{
+
+  background-color:black;
+  color:white;
+} 
